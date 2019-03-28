@@ -30,4 +30,4 @@ RUN apt-get install -y python3 python3-pip
 RUN pip3 install awscli --upgrade
 
 # Install other tools
-RUN apt-get install -y mysql-client jq ssh
+RUN apt-get install -y mysql-client jq ssh git
