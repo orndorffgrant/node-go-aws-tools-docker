@@ -32,3 +32,5 @@ RUN pip3 install awscli --upgrade
 
 # Install other tools
 RUN apt-get install -y mysql-client jq ssh
+
+ENTRYPOINT ["/bin/bash"]
