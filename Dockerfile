@@ -31,5 +31,6 @@ RUN pip3 install awscli --upgrade
 
 # Install other tools
 RUN apt-get install -y mysql-client jq ssh git
-# RUN apt-get install -y python2.7
-RUN ln -s /usr/bin/python3 /usr/bin/python
+RUN apt-get install -y python2.7
+RUN ln -s /usr/bin/python2.7 /usr/bin/python
+RUN apt-get install g++ build-essential
