@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ENV NODE_URL https://nodejs.org/dist/v11.12.0/node-v11.12.0-linux-x64.tar.xz
+ENV NODE_URL https://nodejs.org/dist/v13.5.0/node-v13.5.0-linux-x64.tar.xz
 ENV GO_URL https://dl.google.com/go/go1.12.1.linux-amd64.tar.gz
 ENV TASK_URL https://taskfile.dev/install.sh
 
